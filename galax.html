@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALAX</title>
+	<link rel="icon" href="icon.jpg" type="image/.ico">
+<link rel="stylesheet" href="galax.css">
+   </head>
+<body>
+
+<header>
+    <h1>Welcome to OUR UNIVERSE</h1>
+    <nav>
+        <a href="#about">Universe</a>
+        <a href="#services">Milky Way</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About OUR GALAXY</h2>
+	<ul>
+    <p>Galaxies consist of stars, planets, and vast clouds of gas and dust, all bound together by gravity. The largest contain trillions of stars and can be more than a million light-years across. The smallest can contain a few thousand stars and span just a few hundred light-years. Most large galaxies have supermassive black holes at their centers, some with billions of times the Sun’s mass.</p>
+
+<p>Galaxies come in a variety of shapes, mostly spirals and ellipticals, as well as those with less orderly appearances, usually dubbed irregular.</p>
+
+<p>Most galaxies are between 10 billion and 13.6 billion years old. Some are almost as old as the universe itself, which formed around 13.8 billion years ago. Astronomers think the youngest known galaxy formed approximately 500 million years ago.</p>
+
+<p>Galaxies can organize into groups of about 100 or fewer members held together by their mutual gravity. Larger structures, called clusters, may contain thousands of galaxies. Groups and clusters can be arranged in superclusters, which are not gravitationally bound. Superclusters, empty voids, “walls” of galaxies, and other large-scale structures make up the cosmic web of matter in the universe.</p>
+    <img src="milkyway.jpeg">
+	</ul>
+</section>
+
+<section id="services">
+    <h2>THE MILKY WAY</h2>
+    <ul>
+        <p>Our home galaxy is called the Milky Way. It’s a spiral galaxy with a disk of stars spanning more than 100,000 light-years. Earth is located along one of the galaxy’s spiral arms, about halfway from the center. Our solar system takes about 240 million years to orbit the Milky Way just once.</p>
+	<p>From our perspective on Earth, the Milky Way looks like a faint, milky band of light arcing across the entire sky, which is how it got its name. This feature marks the central disk of our home galaxy seen edge on.</p>
+
+	<p>The Milky Way sits in a neighborhood with over 50 other galaxies called the Local Group. Its members range in size from dwarf galaxies (smaller galaxies with up to a few billion stars) to Andromeda, our nearest large galactic neighbor.</p>
+
+	<p>The Local Group sits just off the edge of the Virgo cluster and is part of the Laniakea supercluster.</p>
+	<img src="milk.jpg">
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you would like to get in touch, please email me at <a href="mailto:turcolas.kevin16@gmail.com">turcolas.kevin16@gmail.com</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 GALAXY ANNIHILATOR</p>
+</footer>
+
+</body>
+</html>
+<script type="module">
+  import Chatbox from 'https://cdn.jsdelivr.net/npm/@chaindesk/embeds@latest/dist/chatbox/index.js';
+
+  const widget = await Chatbox.initBubble({
+    agentId: 'cm48pelg40jjo2056lz5fcfzw',
+    
+    // optional 
+    // If provided will create a contact for the user and link it to the conversation
+    contact: {
+      firstName: 'EXPLORER',
+      lastName: 'WANDERER',
+      email: 'turcolas.kevin16@gmail.com',
+      phoneNumber: '09690388267',
+      userId: '42424242',
+    },
+    // optional
+    // Override initial messages
+    initialMessages: [
+      'Hello EXPLORER how are you doing today?',
+      'How can I help you ?',
+    ],
+    // optional
+    // Provided context will be appended to the Agent system prompt
+    context: "The user you are talking to is EXPLORER. Start by Greeting him by his name.",
+  });
+
+  // open the chat bubble
+  widget.open();
+
+  // close the chat bubble
+  widget.close()
+
+  // or 
+  widget.toggle()
+</script>
